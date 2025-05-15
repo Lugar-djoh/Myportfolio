@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Projects | Fredrick Mandowa</title>
+    <link rel="stylesheet" href="Project.css">
+    <script defer src="Project.js"></script>
+</head>
+<body>
+<header>
+    <nav>
+        <ul class="nav-bar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="project.html" class="active">Project</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="survey.html">Survey</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="projects-page">
+    <h1>My Projects</h1>
+    <section class="project-grid">
+        <article class="project-card">
+            <h2>Portfolio Website</h2>
+            <p>This site was built using HTML, CSS, and JavaScript.</p>
+            <button class="toggle-btn">Show Details</button>
+            <div class="project-details hidden">
+                <ul>
+                    <li>Responsive Design</li>
+                    <li>Dark/Light Mode</li>
+                    <li>Form Validation</li>
+                </ul>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <h2>Todo App</h2>
+            <p>A simple app to manage tasks efficiently.</p>
+            <button class="toggle-btn">Show Details</button>
+            <div class="project-details hidden">
+                <ul>
+                    <li>Task CRUD operations</li>
+                    <li>LocalStorage usage</li>
+                    <li>Vanilla JS</li>
+                </ul>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <h2>Weather App</h2>
+            <p>Displays weather data using a public API.</p>
+            <button class="toggle-btn">Show Details</button>
+            <div class="project-details hidden">
+                <ul>
+                    <li>Fetch API</li>
+                    <li>Search by location</li>
+                    <li>Error handling</li>
+                </ul>
+            </div>
+        </article>
+    </section>
+
+    <h2>Project Comparison Table</h2>
+    <table class="project-table">
+        <thead>
+        <tr>
+            <th>Project</th>
+            <th>Technology</th>
+            <th>Features</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Portfolio Website</td>
+            <td>HTML, CSS, JS</td>
+            <td>Responsive, Form Validation</td>
+        </tr>
+        <tr>
+            <td>Todo App</td>
+            <td>JavaScript</td>
+            <td>Task Management</td>
+        </tr>
+        <tr>
+            <td>Weather App</td>
+            <td>JS, API</td>
+            <td>Live Weather Fetch</td>
+        </tr>
+        </tbody>
+    </table>
+</main>
+
+<footer>
+    <p>&copy; <span id="year"></span> 2025 Fredrick Mandowa. All rights reserved.</p>
+</footer>
+</body>
+</html>
