@@ -1,8 +1,7 @@
-# Personal Portfolio Website
+ Personal Portfolio Website
 
 This is a multi-page personal portfolio website developed as part of the **CP 221 Practical Assignment One**. It showcases the web development skills I've acquired, including semantic HTML5, CSS3 styling, JavaScript interactivity, and responsive design techniques.
 
----
 
 Table of Contents
 
